@@ -1,0 +1,14 @@
+.pageHeader {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #282c34;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

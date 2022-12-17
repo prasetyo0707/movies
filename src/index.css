@@ -1,0 +1,67 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.header-nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #f3f3f3;
+}
+
+.header-nav a:hover {
+  color: yellow;
+}
+
+.section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section.is-dark {
+  background-color: #333;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.page-title {
+  margin-bottom: 25px;
+}
+
+.continent-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.continent-list li {
+  margin-bottom: 5px;
+}
+
+.country-list {
+  list-style: none;
+  padding: 0;
+}
+
+.country-list > li {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.country-list > li:last-child {
+  border-bottom-width: 0;
+}
+
+.contry-data {
+  list-style: none;
+  padding: 0;
+}
+
+.contry-data li {
+  margin-bottom: 5px;
+}
